@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill this form because of reasons</p>
+      
+        <form id="survey-form">
+          <fieldset>
+            <label id="name-label" for="name">Name <input id="name" type="text" required/placeholder="Your name here"></label>
+            <label id="email-label" for="email">Email <input id="email" type="email" required placeholder="example@fcc.com" /></label>
+            <label id="number-label" for="number">Age (optional) <input id="number" type="number" min="12" max="120" placeholder="ex. 22" /></label>
+          </fieldset>
+          <fieldset>
+            <label>Which option is your favorite?
+              <select id="dropdown">
+                <option>This option</option>
+                <option>That option</option>
+                <option>Both options</option>
+                <option>No option</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Would you recommend this form?
+              <label><input class="inline" value="yes" name="recommend-or-not" type="radio"> Hell yeah!</label>
+              <label><input class="inline" value="no" name="recommend-or-not" type="radio"> Hell no!</label>
+            </label>
+            <br>
+            <label>What do you think should improve? (check all that apply)
+              <label><input value="colors" type="checkbox" /> Colors</label>
+              <label><input value="fonts" type="checkbox" /> Fonts</label>
+              <label><input value="questions" type="checkbox" /> Questions</label>
+              <label><input value="bkg-pic" type="checkbox" /> Background picture</label>
+              <label><input value="other" type="checkbox" /> Other</label>
+            </label>
+          </fieldset>
+          <fieldset>
+            <p>Any comments or suggestions?</p>
+            <textarea rows="5" cols="50" placeholder="Enter your comments here..."></textarea>
+            <input id="submit" type="submit" />
+          </fieldset>
+        </form>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
