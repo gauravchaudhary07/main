@@ -1,0 +1,59 @@
+body {
+    background-color:gray;
+  }
+  
+  form {
+    width: 60vw;
+    margin: auto;
+    font-family: Arial;
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    color: white;
+  }
+  
+  fieldset {
+    margin: 10px;
+    border: none;
+  }
+  
+  h1, p {
+    text-align: center
+  }
+  
+  #name, #email, #number {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+  
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  #dropdown {
+    display: block;
+    width: 100%
+  }
+  
+  #submit{
+    margin: 20px auto;
+    display: block;
+    width: 60%;
+    height: 3em;
+    background: green;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 10px auto;
+  
+  }
