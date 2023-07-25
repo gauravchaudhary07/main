@@ -1,5 +1,5 @@
 function func() {
-	let arr = [2, 5, 8, 1, 4]
+	let arr = [1, 5, 8, 7, 9, 12]
 console.log(arr.sort());
 	console.log(arr);
 }
