@@ -6,11 +6,11 @@ import React from 'react'
             count: 0,
                      }
            }
-    increment () ⇒ {
-    this.setState(prevState ⇒({ count: prevState.count + 1 }))
+    increment ()  =>  {
+    this.setState(prevState =>  ({ count: prevState.count + 1 }))
     }
-    decrement () ⇒ {
-    this.setState(prevState → ({ count: prevState.count - 1 }))
+    decrement () =>   {
+    this.setState(prevState   => ({ count: prevState.count - 1 }))
     }
   render() {
       return (
